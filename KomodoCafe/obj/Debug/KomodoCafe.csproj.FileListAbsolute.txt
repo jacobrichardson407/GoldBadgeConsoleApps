@@ -1,0 +1,14 @@
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\bin\Debug\KomodoCafe.exe.config
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\bin\Debug\KomodoCafe.exe
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\bin\Debug\KomodoCafe.pdb
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.csproj.AssemblyReference.cache
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.csproj.CoreCompileInputs.cache
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.exe
+C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\bin\Debug\KomodoCafe.exe.config
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\bin\Debug\KomodoCafe.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\bin\Debug\KomodoCafe.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.csproj.AssemblyReference.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.csproj.CoreCompileInputs.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafe\obj\Debug\KomodoCafe.pdb
