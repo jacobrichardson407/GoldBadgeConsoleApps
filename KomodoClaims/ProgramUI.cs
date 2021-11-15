@@ -22,7 +22,14 @@ namespace KomodoClaims
             while (continueToRun)
             {
                 Console.Clear();
-                Console.WriteLine("Welcome to the Claims Menu!");
+                Console.WriteLine(@"
+  _____  _                 _____  __  __   _____ 
+ / ____|| |         /\    |_   _||  \/  | / ____|
+| |     | |        /  \     | |  | \  / || (___  
+| |     | |       / /\ \    | |  | |\/| | \___ \ 
+| |____ | |____  / ____ \  _| |_ | |  | | ____) |
+ \_____||______|/_/    \_\|_____||_|  |_||_____/ 
+                                                                ");
                 Console.WriteLine("1. See all claims\n" +
                     "2. Take care of next claim\n" +
                     "3. Enter a new claim\n" +
