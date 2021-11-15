@@ -1,0 +1,7 @@
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\bin\Debug\KomodoClaims.exe.config
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\bin\Debug\KomodoClaims.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\bin\Debug\KomodoClaims.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\obj\Debug\KomodoClaims.csproj.AssemblyReference.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\obj\Debug\KomodoClaims.csproj.CoreCompileInputs.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\obj\Debug\KomodoClaims.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoClaims\obj\Debug\KomodoClaims.pdb

@@ -36,7 +36,8 @@ namespace KomodoCafe
                 Console.WriteLine("Welcome to the menu directory!");
                 Console.WriteLine("01. Show all menu items\n" +
                     "02. Add item to menu\n" +
-                    "03. Delete item from menu\n");
+                    "03. Delete item from menu\n" +
+                    "04. Exit");
                 int userInput = int.Parse(Console.ReadLine());
                 switch (userInput)
                 {
@@ -49,8 +50,11 @@ namespace KomodoCafe
                     case 03:
                         RemoveContentFromList();
                         break;
+                    case 04:
+                        continueToRun = false;
+                        break;
                     default:
-                        Console.WriteLine("Please enter a valid number between 1 and 5!\n" + "Press any key to continue...");
+                        Console.WriteLine("Please enter a valid number between 1 and 4!\n" + "Press any key to continue...");
                         Console.ReadKey();
                         break;
                 }

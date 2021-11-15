@@ -14,3 +14,20 @@ C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\
 C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.csproj.CoreCompileInputs.cache
 C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.dll
 C:\Users\desig\source\repos\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\KomodoCafeRepository_Tests.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\KomodoCafeRepository_Tests.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\KomodoCafe.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\KomodoCafe.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\KomodoCafe.exe.config
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.csproj.AssemblyReference.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.csproj.CoreCompileInputs.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.csproj.CopyComplete
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.dll
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCafeRepository_Tests\obj\Debug\KomodoCafeRepository_Tests.pdb
