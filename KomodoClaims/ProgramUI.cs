@@ -86,7 +86,7 @@ namespace KomodoClaims
         }
         private static void DisplayContent(Claim content)
         {
-            Console.WriteLine($"{content.ClaimID, -20}" + $"{content.ClaimType, -20}" + $"{content.Description, -50}" + $"${content.ClaimAmount, -19}" + $"{content.IncidentDate.ToString("MM/dd/yyyy"), -20}" + $"{content.ClaimDate.ToString("MM/dd/yyyy"), -20}" + $"{content.IsValid, -15}\n\n");
+            Console.WriteLine($"{content.ClaimID,-20}" + $"{content.ClaimType,-20}" + $"{content.Description,-50}" + $"${content.ClaimAmount,-19}" + $"{content.IncidentDate.ToString("MM/dd/yyyy"),-20}" + $"{content.ClaimDate.ToString("MM/dd/yyyy"),-20}" + $"{content.IsValid,-15}\n\n");
         }
         private static void CreateNewItem()
         {
@@ -132,34 +132,19 @@ namespace KomodoClaims
         private static void TakeCareOfClaim()
         {
             Console.Clear();
-            Console.WriteLine("Which item would you like to remove from top of queue? Enter a Claim ID: \n");
-            List<Claim> currentContent = _claimRepository.GetContents();
-            int count = 0;
-            foreach (Claim content in currentContent)
-            {
-                count++;
-                Console.WriteLine($"{count}. {content.ClaimID}");
-            }
-            int targetContentId = int.Parse(Console.ReadLine());
-            int targetIndex = targetContentId - 1;
             Console.WriteLine($"{"Claim ID:",-20}" + $"{"Claim Type:",-20}" + $"{"Description:",-50}" + $"{"Claim Amount:",-20}" + $"{"Incident Date:",-20}" + $"{"Claim Date:",-20}" + $"{"Valid Claim?",-15}" + "\n\n");
-            DisplayContent(currentContent[targetIndex]);
+            List<Claim> currentContent = _claimRepository.GetContents();
+            var firstClaim = currentContent[0];
+            DisplayContent(firstClaim);
             Console.WriteLine("Do you want to deal with this claim now (y/n)?");
             char answer = Console.ReadKey().KeyChar;
             if (answer == 'y' || answer == 'Y')
             {
-                if (targetIndex >= 0 && targetIndex < currentContent.Count)
-                {
-                    Claim movedContent = currentContent[targetIndex];
-                    currentContent.RemoveAt(targetIndex);
-                    currentContent.Add(movedContent);
-                    Console.WriteLine("\nClaim was moved to bottom of queue.");
-                    AnyKey();
-                }
-                else
-                {
-                    Console.WriteLine("\nNo content with that ID.");
-                }
+                Claim movedContent = currentContent[0];
+                currentContent.RemoveAt(0);
+                currentContent.Add(movedContent);
+                Console.WriteLine("\nClaim was moved to bottom of queue.");
+                AnyKey();
             }
             else if (answer == 'n' || answer == 'N')
             {
