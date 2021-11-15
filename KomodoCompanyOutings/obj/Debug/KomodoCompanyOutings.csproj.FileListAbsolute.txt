@@ -1,0 +1,7 @@
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\bin\Debug\KomodoCompanyOutings.exe.config
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\bin\Debug\KomodoCompanyOutings.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\bin\Debug\KomodoCompanyOutings.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\obj\Debug\KomodoCompanyOutings.csproj.AssemblyReference.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\obj\Debug\KomodoCompanyOutings.csproj.CoreCompileInputs.cache
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\obj\Debug\KomodoCompanyOutings.exe
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoCompanyOutings\obj\Debug\KomodoCompanyOutings.pdb

@@ -12,6 +12,8 @@ namespace KomodoCafe
         private static MenuRepository _menuRepository = new MenuRepository();
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             SeedContent();
             Run();
         }
