@@ -23,10 +23,10 @@ namespace KomodoClaims
             {
                 Console.Clear();
                 Console.WriteLine("Welcome to the Claims Menu!");
-                Console.WriteLine("01. See all claims\n" +
-                    "02. Take care of next claim\n" +
-                    "03. Enter a new claim\n" +
-                    "04. Exit");
+                Console.WriteLine("1. See all claims\n" +
+                    "2. Take care of next claim\n" +
+                    "3. Enter a new claim\n" +
+                    "4. Exit");
                 int userInput = int.Parse(Console.ReadLine());
                 switch (userInput)
                 {

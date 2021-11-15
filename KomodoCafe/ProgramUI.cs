@@ -109,7 +109,7 @@ namespace KomodoCafe
             {
                 // Increment counter to display
                 count++;
-                Console.WriteLine($"{count}. {content.MealNumber}. {content.MealName}");
+                Console.WriteLine($"{count}. {content.MealName}");
             }
             // Ask for number, take one off so it matches it's index (index starts at 0)
             int targetContentId = int.Parse(Console.ReadLine());
