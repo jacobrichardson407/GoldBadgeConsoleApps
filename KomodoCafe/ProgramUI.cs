@@ -34,23 +34,23 @@ namespace KomodoCafe
             {
                 Console.Clear();
                 Console.WriteLine("Welcome to the menu directory!");
-                Console.WriteLine("01. Show all menu items\n" +
-                    "02. Add item to menu\n" +
-                    "03. Delete item from menu\n" +
-                    "04. Exit");
+                Console.WriteLine("1. Show all menu items\n" +
+                    "2. Add item to menu\n" +
+                    "3. Delete item from menu\n" +
+                    "4. Exit");
                 int userInput = int.Parse(Console.ReadLine());
                 switch (userInput)
                 {
-                    case 01:
+                    case 1:
                         ShowAllContent();
                         break;
-                    case 02:
+                    case 2:
                         CreateNewItem();
                         break;
-                    case 03:
+                    case 3:
                         RemoveContentFromList();
                         break;
-                    case 04:
+                    case 4:
                         continueToRun = false;
                         break;
                     default:
