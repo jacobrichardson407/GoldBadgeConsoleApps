@@ -32,5 +32,27 @@ namespace KomodoCompanyOutings.Classes
             }
             return null;
         }
+        public double GetTotalCost()
+        {
+            double total = _outingDirectory.Sum(_outingDirectory => _outingDirectory.TotalCost);
+            return total;
+        }
+        public double GetTotalCostByEvent(EventType eventType)
+        {
+            double total = 0;
+            var eventTypeListing = new List<Outing>();
+            foreach (var item in _outingDirectory)
+            {
+                if (item.EventType == eventType)
+                {
+                    eventTypeListing.Add(item);
+                }
+            }
+            foreach (var totalCost in eventTypeListing)
+            {
+                total += totalCost.TotalCost;
+            }
+            return total;
+        }
     }
 }

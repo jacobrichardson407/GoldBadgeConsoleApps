@@ -21,7 +21,7 @@ namespace KomodoCompanyOutings.Classes
         public int Attendance { get; set; }
         public DateTime EventDate { get; set; }
         public double TotalCost { get; set; }
-        public double CostPerPerson 
+        public double CostPerPerson
         {
             get
             {

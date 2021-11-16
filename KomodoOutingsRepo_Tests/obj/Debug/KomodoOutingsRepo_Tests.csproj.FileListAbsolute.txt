@@ -1,3 +1,4 @@
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\obj\Debug\KomodoOutingsRepo_Tests.csproj.CoreCompileInputs.cache
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -11,6 +12,6 @@ C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\obj\Debug\KomodoOutingsRepo_Tests.csproj.AssemblyReference.cache
-C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\obj\Debug\KomodoOutingsRepo_Tests.csproj.CoreCompileInputs.cache
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\obj\Debug\KomodoOutingsRepo_Tests.dll
 C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\obj\Debug\KomodoOutingsRepo_Tests.pdb
+C:\Users\desig\Desktop\ElevenFiftyProjects\113SD\Gold Badge\GoldBadgeConsoleApps\KomodoOutingsRepo_Tests\obj\Debug\KomodoOutingsRepo_Tests.csproj.CopyComplete

@@ -10,7 +10,8 @@ namespace KomodoCompanyOutings
     public class ProgramUI
     {
         private static CompanyOutingsRepository _outingRepository = new CompanyOutingsRepository();
-        private static List<Outing> _outings = new List<Outing>();
+        private static Outing _outing = new Outing();
+
         static void Main(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -61,7 +62,6 @@ namespace KomodoCompanyOutings
                 }
             }
         }
-
         private static void SeedContent()
         {
             Outing item1 = new Outing(EventType.Bowling, 7, new DateTime(2021, 11, 15), 107.42d);
@@ -92,15 +92,14 @@ namespace KomodoCompanyOutings
             Console.WriteLine($"{"Event Type:",-20}" + $"{"Attendance:",-20}" + $"{"Date:",-20}" + $"{"Total Cost:",-20}" + $"{"Cost Per Person:",-20}\n\n");
             foreach (Outing content in listOfContent)
             {
-
                 DisplayContent(content);
             }
+            Console.WriteLine($"\n\nTotal Cost: {TotalCostOfOutings().ToString("C2"),-20}");
             AnyKey();
         }
         private static void DisplayContent(Outing content)
         {
             Console.WriteLine($"{content.EventType,-20}" + $"{content.Attendance,-20}" + $"{content.EventDate.ToString("MM/dd/yyyy"),-20}" + $"{content.TotalCost.ToString("C2"),-20}" + $"{Math.Round(content.CostPerPerson, 2).ToString("C2"),-19}");
-            Console.WriteLine($"Total Cost of Outings: {content.TotalCost}");
         }
         private static void CreateNewItem()
         {
@@ -115,7 +114,6 @@ namespace KomodoCompanyOutings
             {
                 case "1":
                     content.EventType = EventType.Golf;
-
                     break;
                 case "2":
                     content.EventType = EventType.Bowling;
@@ -151,36 +149,45 @@ namespace KomodoCompanyOutings
         {
             Console.Clear();
             Outing content = new Outing();
-            double totalCostByEvent;
             _outingRepository.GetContentByEventType(content.ToString());
             Console.WriteLine("Please select an Event Type: \n");
             Console.WriteLine("1. Golf\n" +
                 "2. Bowling\n" +
                 "3. Amusement Park\n" +
                 "4. Concert\n");
+            var totalCost = 0.0d;
             switch (Console.ReadLine())
             {
                 case "1":
                     content.EventType = EventType.Golf;
-                    DisplayContent(content);
+                    totalCost = _outingRepository.GetTotalCostByEvent(content.EventType);
+                    Console.WriteLine($"Total Cost of Golf Outings: {totalCost.ToString("C2"),-20}");
                     break;
                 case "2":
                     content.EventType = EventType.Bowling;
-                    DisplayContent(content);
+                    totalCost = _outingRepository.GetTotalCostByEvent(content.EventType);
+                    Console.WriteLine($"Total Cost of Bowling Outings: {totalCost.ToString("C2"),-20}");
                     break;
                 case "3":
                     content.EventType = EventType.AmusementPark;
-                    DisplayContent(content);
+                    totalCost = _outingRepository.GetTotalCostByEvent(content.EventType);
+                    Console.WriteLine($"Total Cost of Amusement Park Outings: {totalCost.ToString("C2"),-20}");
                     break;
                 case "4":
                     content.EventType = EventType.Concert;
-                    DisplayContent(content);
+                    totalCost = _outingRepository.GetTotalCostByEvent(content.EventType);
+                    Console.WriteLine($"Total Cost of Concert Outings: {totalCost.ToString("C2"),-20}");
                     break;
                 default:
                     Console.WriteLine("Invalid event type.");
                     break;
             }
             AnyKey();
+        }
+        private static double TotalCostOfOutings()
+        {
+            double total = _outingRepository.GetTotalCost();
+            return total;
         }
         private static void AnyKey()
         {
