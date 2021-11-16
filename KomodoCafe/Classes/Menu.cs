@@ -8,10 +8,7 @@ namespace KomodoCafe.Classes
 {
     public class Menu
     {
-        public Menu()
-        {
-
-        }
+        public Menu(){}
         public Menu(int mealNumber, string mealName, string mealDescription, string ingredients, double mealPrice)
         {
             MealNumber = mealNumber;

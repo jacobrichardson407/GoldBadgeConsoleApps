@@ -13,7 +13,6 @@ namespace KomodoClaims.Classes
         {
             int startingCount = _claimDirectory.Count;
             _claimDirectory.Add(content);
-
             bool wasAdded = (_claimDirectory.Count > startingCount) ? true : false;
             return wasAdded;
         }

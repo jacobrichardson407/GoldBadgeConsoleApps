@@ -11,7 +11,6 @@ namespace KomodoCompanyOutings
     {
         private static CompanyOutingsRepository _outingRepository = new CompanyOutingsRepository();
         private static Outing _outing = new Outing();
-
         static void Main(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;
@@ -19,7 +18,6 @@ namespace KomodoCompanyOutings
             SeedContent();
             Run();
         }
-
         private static void Run()
         {
             bool continueToRun = true;

@@ -17,7 +17,6 @@ namespace KomodoCafe
             SeedContent();
             Run();
         }
-
         public static void SeedContent()
         {
             Menu item1 = new Menu(01, "Cheese Burger meal", "A single patty with a slice of American Cheese served on a brioche bun, comes with: onions, ketchup, mustard, dill pickle slices, and a side of fries.", "100% pure Beef patty, brioche bun, pickles, onions, garlic, ketchup, mustard", 4.99d);
@@ -26,9 +25,7 @@ namespace KomodoCafe
             _menuRepository.AddContentToDirectory(item1);
             _menuRepository.AddContentToDirectory(item2);
             _menuRepository.AddContentToDirectory(item3);
-
         }
-
         public static void Run()
         {
             bool continueToRun = true;
@@ -126,16 +123,13 @@ namespace KomodoCafe
             int count = 0;
             foreach (Menu content in currentContent)
             {
-                // Increment counter to display
                 count++;
                 Console.WriteLine($"{count}. {content.MealName}");
             }
-            // Ask for number, take one off so it matches it's index (index starts at 0)
             int targetContentId = int.Parse(Console.ReadLine());
             int targetIndex = targetContentId - 1;
             if (targetIndex >= 0 && targetIndex < currentContent.Count)
             {
-                // Get that content from that index location
                 Menu desiredContent = currentContent[targetIndex];
                 if (_menuRepository.DeleteExistingContent(desiredContent))
                 {

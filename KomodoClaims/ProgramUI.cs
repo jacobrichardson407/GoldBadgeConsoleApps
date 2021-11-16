@@ -43,7 +43,7 @@ namespace KomodoClaims
                         ShowAllContent();
                         break;
                     case 02:
-                        TakeCareOfClaim();
+                        RemoveClaim();
                         break;
                     case 03:
                         CreateNewItem();
@@ -88,7 +88,6 @@ namespace KomodoClaims
             Console.WriteLine($"{"Claim ID:",-20}" + $"{"Claim Type:",-20}" + $"{"Description:",-50}" + $"{"Claim Amount:",-20}" + $"{"Incident Date:",-20}" + $"{"Claim Date:",-20}" + $"{"Valid Claim?",-15}" + "\n\n");
             foreach (Claim content in listOfContent)
             {
-
                 DisplayContent(content);
             }
             AnyKey();
@@ -138,7 +137,7 @@ namespace KomodoClaims
                 AnyKey();
             }
         }
-        private static void TakeCareOfClaim()
+        private static void RemoveClaim()
         {
             Console.Clear();
             Console.WriteLine($"{"Claim ID:",-20}" + $"{"Claim Type:",-20}" + $"{"Description:",-50}" + $"{"Claim Amount:",-20}" + $"{"Incident Date:",-20}" + $"{"Claim Date:",-20}" + $"{"Valid Claim?",-15}" + "\n\n");
@@ -151,8 +150,7 @@ namespace KomodoClaims
             {
                 Claim movedContent = currentContent[0];
                 currentContent.RemoveAt(0);
-                currentContent.Add(movedContent);
-                Console.WriteLine("\nClaim was moved to bottom of queue.");
+                Console.WriteLine("\nClaim was removed from list.");
                 AnyKey();
             }
             else if (answer == 'n' || answer == 'N')
@@ -162,7 +160,6 @@ namespace KomodoClaims
             else
             {
                 Console.WriteLine("\nPlease enter y or n.");
-                TakeCareOfClaim();
             }
         }
         private static void AnyKey()

@@ -13,7 +13,6 @@ namespace KomodoCafe.Classes
         {
             int startingCount = _menuDirectory.Count;
             _menuDirectory.Add(content);
-
             bool wasAdded = (_menuDirectory.Count > startingCount) ? true : false;
             return wasAdded;
         }

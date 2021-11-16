@@ -9,10 +9,7 @@ namespace KomodoClaims.Classes
     public enum ClaimType { Car, Home, Theft}
     public class Claim
     {
-        public Claim()
-        {
-
-        }
+        public Claim(){}
         public Claim(int claimID, ClaimType claimType, string description, double claimAmount,  DateTime incidentDate, DateTime claimDate)
         {
             ClaimID = claimID;
@@ -32,7 +29,6 @@ namespace KomodoClaims.Classes
         {
             get
             {
-
                 if ((ClaimDate - IncidentDate).TotalDays <= 30)
                 {
                     return true;
