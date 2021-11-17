@@ -13,5 +13,5 @@
  ### 3. Allows accountants to:
   1. _see all of the outings_
   2. _see the cost of all outings combined_
-  3. _see the cost of all types of outings combined_
+  3. _see the cost by type of outing_
   4. _and add a new outing._
