@@ -12,7 +12,7 @@
   3. _and add a new claim._
   4. _Includes a Unit Test for the repository methods._
  ## App 3: Komodo Company Outings 
- ### 3. Allows accountants to:
+ ### Allows accountants to:
   1. _see all of the outings_
   2. _see the cost of all outings combined_
   3. _see the cost by type of outing_
